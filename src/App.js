@@ -1,15 +1,18 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import profileImage from "./img/alcatraz-black.png";
+import LandingPage from "./components/LandingPage";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <h1> Hello there! </h1>
-      <h2> Author: MHP </h2>
-      <img src={profileImage} alt="profile-image" />
-    </div>
+    <body>
+      {/* <Header /> */}
+      <LandingPage />
+      <Footer />
+      {/* <h1 style={{color: '#CB2431', borderColor: '#00f' }}> haloo </h1> */}
+    </body>
   );
 }
 
