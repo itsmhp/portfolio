@@ -1,5 +1,5 @@
 import React from "react";
-import "../App.css";
+import "./LandingPage.css";
 import profileImage from "../img/alcatraz-black.png";
 
 function LandingPage() {
